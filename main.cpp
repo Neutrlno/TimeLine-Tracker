@@ -463,7 +463,6 @@ private:
     float dayNumberY = 0.0f;
     int fontSize = (int)(image.y * 0.026f);
     int fontSize2 = fontSize;
-    int sideOffset = (int)(image.x * 0.0165f);
 };
 
 int main() {
