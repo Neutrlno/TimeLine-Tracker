@@ -1,0 +1,1 @@
+FontToCPP.exe -nocompress robotom+arial.ttf RobotoMArial > robotom-arial

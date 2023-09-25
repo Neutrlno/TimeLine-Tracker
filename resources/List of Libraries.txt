@@ -1,0 +1,11 @@
+Used:
+SFML - https://github.com/SFML (SFML is a simple, fast, cross-platform and object-oriented multimedia API)
+ImGui - https://github.com/ocornut/imgui (Dear ImGui is a bloat-free graphical user interface library for C++)
+ImGui-SFML - https://github.com/SFML/imgui-sfml  (Library which allows you to use Dear ImGui with SFML)
+FreeType - https://github.com/freetype (Is a freely available software library to render fonts)
+
+Explored:
+date.h - https://github.com/HowardHinnant/date ("date.h" is a header-only library which builds upon <chrono>)
+FLTK - https://github.com/fltk/fltk (The Fast Light Tool Kit is a cross-platform C++ GUI toolkit)
+Nuclear - https://github.com/Immediate-Mode-UI/Nuklear (This is a minimal-state, immediate-mode graphical user interface toolkit written in ANSI C and licensed under public domain.)
+

@@ -1,0 +1,2 @@
+startDate=01.09.2023
+length=500

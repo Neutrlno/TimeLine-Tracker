@@ -1,0 +1,13 @@
+C/C++\Processor\Preprocessor Definition\ add SFML_STATIC;
+Linker\Input\Additional Dependencies\ {
+    debug:
+	opengl32.lib;winmm.lib;gdi32.lib;freetype.lib;sfml-main-d.lib;sfml-system-s-d.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;%(AdditionalDependencies)
+    release:
+	opengl32.lib;winmm.lib;gdi32.lib;freetype.lib;sfml-main.lib;  sfml-system-s.lib;  sfml-graphics-s.lib;  sfml-window-s.lib;  %(AdditionalDependencies)
+}
+
+Linker\General\Additional Library Directories\
+$(ProjectDir)libraries\sfml\lib;$(ProjectDir)libraries\freetype;%(AdditionalLibraryDirectories)
+
+C/C++\Processor\Additional Include Directories\
+$(ProjectDir)libraries\sfml\include;$(ProjectDir)libraries\imgui;$(ProjectDir)libraries\imgui-sfml;$(ProjectDir)libraries\misc;$(ProjectDir)libraries\freetype;%(AdditionalIncludeDirectories)
